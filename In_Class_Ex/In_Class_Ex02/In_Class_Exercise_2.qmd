@@ -1,0 +1,19 @@
+---
+title: "In-class Exercise 2: Geospatial Data Wrangling"
+date: "`r Sys.Date()`"
+format: html
+execute: 
+  message: false
+  warning: false
+editor: visual
+---
+
+```{r}
+pacman::p_load(sf, tidyverse, funModeling)
+```
+
+## Importing Geospatial Dataset
+
+```{r}
+geoNGA <-st_read("data/geospatial/geoBoundaries-NGA-ADM2-all/", layer="geoBoundaries-NGA-ADM2")
+```

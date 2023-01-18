@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "In-class Exercise",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IS415-GAA",
+    "section": "",
+    "text": "Welcome to IS415 Geospatial Analytics and Applications.\nThis is the course website of IS415 study this term. You will find my course work on this website"
+  },
+  {
+    "objectID": "In_Class_Ex/In_Class_Ex02/In_Class_Exercise_2.html",
+    "href": "In_Class_Ex/In_Class_Ex02/In_Class_Exercise_2.html",
+    "title": "In-class Exercise 2: Geospatial Data Wrangling",
+    "section": "",
+    "text": "pacman::p_load(sf, tidyverse, funModeling)"
+  },
+  {
+    "objectID": "In_Class_Ex/In_Class_Ex02/In_Class_Exercise_2.html#importing-geospatial-dataset",
+    "href": "In_Class_Ex/In_Class_Ex02/In_Class_Exercise_2.html#importing-geospatial-dataset",
+    "title": "In-class Exercise 2: Geospatial Data Wrangling",
+    "section": "Importing Geospatial Dataset",
+    "text": "Importing Geospatial Dataset\n\ngeoNGA <-st_read(\"data/geospatial/geoBoundaries-NGA-ADM2-all/\", layer=\"geoBoundaries-NGA-ADM2\")\n\nReading layer `geoBoundaries-NGA-ADM2' from data source \n  `C:\\Users\\oppsk\\OneDrive\\Documents\\Y3S2 Modules\\Geospatial Analytics & Applications G1\\IS415-GAA\\In_Class_Ex\\In_Class_Ex02\\data\\geospatial\\geoBoundaries-NGA-ADM2-all' \n  using driver `ESRI Shapefile'\nSimple feature collection with 774 features and 6 fields\nGeometry type: MULTIPOLYGON\nDimension:     XY\nBounding box:  xmin: 2.668534 ymin: 4.273007 xmax: 14.67882 ymax: 13.89442\nGeodetic CRS:  WGS 84"
+  },
+  {
+    "objectID": "In_Class_Ex/In_Class_Ex02/In_Class_Exercise_2.html#the-nga-data-set",
+    "href": "In_Class_Ex/In_Class_Ex02/In_Class_Exercise_2.html#the-nga-data-set",
+    "title": "In-class Exercise 2: Geospatial Data Wrangling",
+    "section": "The NGA data set",
+    "text": "The NGA data set"
+  }
+]

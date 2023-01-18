@@ -1,0 +1,9 @@
+---
+title: "In-class Exercise"
+---
+
+About this site
+
+```{r}
+1 + 1
+```
